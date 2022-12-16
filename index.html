@@ -1,53 +1,65 @@
 <!DOCTYPE html>
 <html>
-<center>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>grayr</title>
+  <title>Scooby Doo Project</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  
-  <h1>Instagram Project</h1>
   <br>
-  By Graydon R.
-  <h3>
-  <p>
-    Instagram has become very influential in the way we process information. There are also many people wanting to become popular and make a career out of instagram.<p/>
-  <p>We possess these four questions about the top 200 most popular accounts on instagram to see what is the driving factor of a successful instagram career.<p/>
-  <p>1) Is there a positive, statistically significant correlation between the number of followers an influencer has and their influence score?
-2) Is there a positive, statistically significant correlation between the average likes an influencer has on a post and their influence score?
-3) Is there a positive, statistically significant correlation between the total number of likes an influencer has and their influence score?
-4) Is there a positive, statistically significant correlation between the number of posts an influencer has made and their influence score?</p>
+  <center>
+  <img src="lowqual.PNG" alt="image" style="max-width: 75%;">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <div class="myDiv">
+  <h1 id = title >SCOOBY DOO PROJECT</h1>
+    </div>
+  <br>
+  <br>
+  <p1>
+    In 1969 Warner Brothers first released the series “Scooby Doo” and quickly achieved great success. This success was mainly for the characters and their archetypes. The show has been around for over 50 years and there have been many movies, tv shows, crossovers, and other productions that have been successful. Warner Brothers has made many popular movies and shows, but should Warner Brothers return to a classic? 
+  </p1>
+    <br>
+    <br>
+  <p1>Should Warner Brothers produce a new Scooby Doo movie, tv show, or crossover based on previous productions imdb score?</p1>
+    <br>
+  <p1>Dataset:  Using the csv files found in the “Scooby-Doo Complete” dataset in kaggle. I was able to find the index(date aired), series name, network, format, and imdb score. I had to remove 
+A ton of unnecessary data such as, if “jinkis” was said in the episode/movie, it also included voice actors, directors, extra characters, and data on the culprit. The database is of every scooby doo movie and episode. This data set is also in chronological order.
+</p1>
+    <br>
+    <br>
+    <img src="timeScore.PNG" alt="image" style="max-width: 75%;">
+    <img src="regplotTimeScore.PNG" alt="image" style="max-width: 75%;">
+    <br>
+    <br>
+  <p1>The above graphs show the imdb score and time. Since the data is in chronological order we can use the index of the values to demonstrate time. The average imdb score of all of Scooby Doo is 7.278, this is a relatively good score. From index 0 to 300 the score is relatively similar; this is from 1969 to early 2007. After 2007, the scores of the next releases are not very similar and go from a high to low score. The franchise has the highest and lowest rated production in the span of a month. The highest imdb score was 9.6 with the movie Scoobynatural in March 2018 and the lowest score of 4.2 with Daphne and Velma in May 2018. Then there was a large downturn in the score, meaning that the show's popularity was becoming less and less. </p1>
+    <br>
+    <br>
+  <p1>With the trends shown above it would probably be in the best interest of Warner Brothers to note pursue the franchise further. What if they did want to make something new, what would be the way to release the production. </p1>
+    <br>
+    <img src="formatScoob.PNG" alt="image" style="max-width: 75%;">
+    <img src="bestNetwork.PNG" alt="image" style="max-width: 75%;">
+    <br>
+  <p1>The best format for a new release would look to be a crossover, but the range of imdb score for a crossover is larger. This means that a crossover could do really well or really bad. The second best is a tv series that has a lower average than a crossover but does have as great of a range. This means that the imdb scores will be closer to the average than the crossover, so a tv series would be more likely to have a higher score.</p1>
+    <br>
+  <p1>
+Threat to validity: Warner bros has released some newer titles in the franchise and two of them were not included in the dataset. There might have been some null values but I made sure to check and remove them all. Warner bros also has ties with other companies such as DC that can make more money and be more popular than Scooby doo.
+</p1>  
 
-  <p>In a data set on the 200 most popular accounts on instagram. The data set consisted of rank of the Influencer, Username of the Instagrammer , influence score of the users, number of posts they have made so far, number of followers of the user, average likes on instagram posts, last 60 days engagement rate of instagrammer as faction of engagements they have done so far, average likes they have on new posts, total likes the user has got on their posts, and country or region of origin of the user. After wrangling the data and converting the string numerical values to actual numbers, we were left with rank, number of posts, number of likes, like averages, and number of followers. <p/>
-    <img src="Capture.PNG" alt="image" style="max-width: 75%;">
-   
-  <p>1) There is a positive statistically significant correlation between the number of followers an influence has and their influence score, but the correlation between the two is not very strong. Only having a correlation of 0.365. This means that the number of followers you have means you will have a higher influence score. The only thing is there should probably be a higher correlation based on the way instagram calculates influencer score. The data found on kaggel is over 12 years old and a lot has changed since 2010 in regard to instagram.</p>
-  <img src="Capture4.png" alt="image" style="max-width: 70%;">
-
-
-  <p>2) There is a very small and ingisnginfigan postive correlation between average likes an influcer gets and their influence score. The correlation between the two is 0.0485. THis means that the average like on a post has little to do with one influencer score. In doing research I found that it was more important to post more consistently than get higher average likes</p>
-    <img src="Capture3.PNG" alt="image" style="max-width: 70%;">
-  
-  <p>3) There is a positive, statistically significant correlation between the total number of likes an influence has and their influence score, the correlation between the two is 0.235. This means that the more likes a person has the more likely there are going to have a higher influencer score. </p>
-    <img src="Capture1.PNG" alt="image" style="max-width: 70%;">
-  
-  <p>4) Finally there is a positive correlation between the number of posts and the influencer score, the correlation is 0.168. The more posts the better but posting consistently and getting a higher number of likes is what will allow a person to become more influential on instagram. </p>
-  <img src="Capture2.PNG" alt="image" style="max-width: 70%;">
-
-  <script src="script.js"></script>
-  
- <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
+    <br>
+    <br>
+    <br>
+    </center>
+    <img src="buffshag.PNG" alt="image" style="max-width: 10%;">
 
 </body>
 
+  
 </html>
-
-
