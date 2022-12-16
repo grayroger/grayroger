@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: url("scoob.PNG");
+}
+
+#title{
+  color: rgb(97,237,153);
+  font-family: papyrus;
+  font-size: 75px;
+}
+
+.myDiv {
+  border: 5px outset lightblue;
+  background-color: black;
+  text-align: center;
+  border-radius: 50px;
+}
+
+p1{
+  color:white;
+  font-size: 25px;
+  background-color: #80ced6;
+}
+
+
+
